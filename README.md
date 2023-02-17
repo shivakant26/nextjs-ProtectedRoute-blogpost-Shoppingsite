@@ -1,4 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Feature
+1. perform styleing
+2. file sepration
+3. routing automation
+4. common component
 
 ## Getting Started
 
