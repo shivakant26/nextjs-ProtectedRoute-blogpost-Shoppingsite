@@ -1,0 +1,95 @@
+.banner_section{
+    background-image: url("../assets/images/bg-01.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 200px;
+    position: relative;
+}
+.text_102{
+    font-family: 'poppinsbold';
+    font-size: 50px;
+    width: 100px;
+    margin: 0px auto;
+    padding: 80px 0px;
+    line-height: 1.1;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+.overlay{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.4);
+}
+.our_text , .our_mission_text{
+    width: 60%;
+    float: left;
+    padding: 7px 85px 0px 0px;
+}
+.our_mission_text{
+    float: right !important;
+}
+.our_text p , .our_mission_text p{
+    font-family: 'poppinslight';
+    font-size: 14px;
+    color: #888;
+    padding: 0px 0px 26px;
+    line-height: 1.7857;
+}
+.our_mission_text{
+    padding: 0px 0px 0px 26px !important;
+}
+.our_text h4 , .our_mission_text h4{
+    font-family: 'poppinsbold';
+    font-size: 25px;
+    color: #333;
+    padding: 10px 0px;
+    line-height: 1.2;
+}
+.our_image,.our_mission_image{
+    width: 40%;
+    float: right;
+}
+.our_mission_image{
+    float: left !important;
+}
+.our_story_section , .our_mission_section{
+    padding: 40px 0px;
+}
+.image_outer{
+    position: relative;
+    z-index: 1;
+}
+.image_outer::before{
+    bottom: -21px;
+    left: -21px;
+}
+.image_outer::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    border: 3px solid #ccc;
+}
+.image_inner{
+    display: block;
+    overflow: hidden;
+}
+.image_inner img{
+    width: 100%;
+    transition: transform 0.9s ease;
+}
+.image_inner:hover img {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}

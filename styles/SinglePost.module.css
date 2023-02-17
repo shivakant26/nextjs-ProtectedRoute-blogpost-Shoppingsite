@@ -1,0 +1,39 @@
+.signle_blog_post{
+    padding: 40px 0px;
+}
+.post_content{
+    display: flex;
+}
+.signle_post{
+    width: 50%;
+}
+.signle_post h2{
+    font-size: 29px;
+    padding: 18px 0px;
+}
+.signle_post p{
+    font-size: 16px;
+    line-height: 25px;
+}
+.feature_Article{
+    padding: 0px 20px;
+    width: 50%;
+}
+.hrlt_card{
+    display: flex;
+    margin: 25px 0px;
+}
+.hr_fture_image{
+    width: 25%;
+}
+.hr_fture_text h5{
+    padding: 5px 10px;
+    color: #213343;
+    font-size: 15px;
+}
+.feature_Article h4{
+    border-bottom: 2px solid #ff583c;
+    color: #29485c;
+    font-size: 20px;
+    padding: 10px 0px;
+}
